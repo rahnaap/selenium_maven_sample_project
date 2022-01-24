@@ -1,5 +1,5 @@
 # Selenium Webdriver with java Sample project 
-In this sample project I automated Salesforce [https://www.salesforce.com/ap/hub/sales/] with few testcases parallelly as it reduce the total time to finish the test.  I deliberately put one testcase to failed inorder to showcase failure screenshot. Screenshot is captured by using TestNg listeners. This screenshot also attached to the extent report. Screenshot and extent report can be found at the reports directory [reports/index.html]. 
+In this sample project, I automated Salesforce[https://www.salesforce.com/ap/hub/sales/] with a few test cases parallelly as it reduce the total time to finish the test. I deliberately put one test case to fail in order to showcase the failure screenshot. The screenshot is captured by using TestNG listeners. This screenshot is also attached to the extent report. Screenshot and extent report can be found in the reports directory [reports/index.html]. 
 # Sample test cases in this project 
 - home page [Used data provider inorder to run testcases with different parameters]
 - Validate Title 
