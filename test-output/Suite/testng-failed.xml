@@ -4,18 +4,6 @@
   <listeners>
     <listener class-name="automationTest.Listeners"/>
   </listeners>
-  <test thread-count="5" parallel="tests" name="Validating navigation bar(failed)">
-    <classes>
-      <class name="automationTest.ValidateNavigationBar">
-        <methods>
-          <include name="getNavigationBar"/>
-          <include name="initial"/>
-          <include name="close"/>
-          <include name="validateLogo"/>
-        </methods>
-      </class> <!-- automationTest.ValidateNavigationBar -->
-    </classes>
-  </test> <!-- Validating navigation bar(failed) -->
   <test thread-count="5" parallel="tests" name="Validating title in the page(failed)">
     <classes>
       <class name="automationTest.ValidateTitle">

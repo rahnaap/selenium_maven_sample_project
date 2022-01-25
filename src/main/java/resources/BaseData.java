@@ -19,7 +19,7 @@ import org.openqa.selenium.chrome.ChromeOptions;
 
 public class BaseData {
 	
-public static WebDriver driver;
+public WebDriver driver;
 public Properties prop;
             public WebDriver initializeDriver() throws IOException {
 	
